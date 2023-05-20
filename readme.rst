@@ -1,5 +1,5 @@
-⚡️ TI AM62x EVSE SDK 🔌
-========================
+⚡️ TI AM62x EVSE SDK MEETS UW Tacoma! 🔌
+=========================================
 
 Organization of this repository
 -------------------------------
