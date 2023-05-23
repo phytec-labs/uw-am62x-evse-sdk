@@ -9,10 +9,10 @@ The repository contains multiple independent branches
 * **main**:
 
   this branch contains the software for the AM62x *MCU* in the `firmware
-  <https://github.com/phytec-labs/ti-am62x-evse-sdk/tree/main/firmware>`_
+  <https://github.com/phytec-labs/uw-am62x-evse-sdk/tree/main/firmware>`_
   folder and its board support driver for the `EVerest framework
   <https://github.com/EVerest/EVerest>`_ in the `everest-module
-  <https://github.com/phytec-labs/ti-am62x-evse-sdk/tree/main/everest-module>`_
+  <https://github.com/phytec-labs/uw-am62x-evse-sdk/tree/main/everest-module>`_
   folder
 
 * **kirkstone**:
@@ -37,7 +37,7 @@ This section assumes, that you have minimal experience using the `OpenEmbedded
 * install ``repo`` (see https://gerrit.googlesource.com/git-repo/)
 * use repo to fetch all layers::
 
-    repo init -u https://github.com/phytec-labs/ti-am62x-evse-sdk.git -b repo-manifest
+    repo init -u https://github.com/phytec-labs/uw-am62x-evse-sdk.git -b repo-manifest
 
     repo sync
     # will fetch all repositories
@@ -125,7 +125,7 @@ Note: this is only necessary if you want to modify the MCU firmware.  A
 
 2. Checkout out the MCU firmware from this repository::
 
-    git clone https://github.com/phytec-labs/ti-am62x-evse-sdk.git
+    git clone https://github.com/phytec-labs/uw-am62x-evse-sdk.git
 
 3. Start *CCStudio* and import the ``firmware`` folder from the checkout via
    ``File->Import...`` (choose *CCS Projects*)
